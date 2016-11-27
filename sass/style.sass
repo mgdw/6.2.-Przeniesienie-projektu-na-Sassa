@@ -1,0 +1,414 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic)
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black')
+@import colors
+@import grid
+@import header
+@import hero
+
+* 
+    margin: 0
+    border: 0
+    padding: 0
+    font-family: 'Open Sans', sans-serif
+
+.container 
+    margin: 0 auto
+    max-width: 1200px
+
+
+section 
+    .container 
+        margin: 50px auto
+        text-align: center
+
+p
+    color: $p-color      
+
+
+section
+    text-align: center
+
+section>div>div>h2 
+    text-transform: uppercase   
+
+
+.icon 
+    p 
+        font-style: normal
+
+
+.col-4 
+    .fa 
+        color: $white
+        background-color: $background-grey
+        padding: 20px
+        border-radius: 15%
+        margin: 50px 0
+        &:hover 
+            background-color: $hover-blue
+
+
+h2
+    &:hover 
+        color: $hover-blue
+
+
+.works 
+    margin: 100px auto
+
+
+.works 
+    h2 
+        font-size: 30px
+        color: $background-grey
+        text-transform: uppercase
+        font-family: 'Archivo Black', sans-serif
+        margin: 50px auto 0 auto
+
+    p 
+        font-size: 20px 
+
+
+
+.gallery
+    margin: 0
+    padding: 0
+    width: 100%
+
+
+.gallery-photo 
+    min-height: 20vw
+    width: 20%
+    float: left
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+
+
+.photo1
+    width: 40%
+    background-image: url(https://static.pexels.com/photos/47426/pexels-photo-47426-medium.jpeg)
+
+.photo2 
+    background-image: url(https://static.pexels.com/photos/5021/nature-sunset-person-woman-medium.jpg)
+
+.photo3 
+    background-image: url(https://static.pexels.com/photos/1440/city-road-street-buildings-medium.jpg)
+
+.photo4 
+    background-image: url(https://static.pexels.com/photos/174/coffee-apple-iphone-laptop-medium.jpg)
+
+.photo5 
+    background-image: url(https://static.pexels.com/photos/6604/public-transportation-tram-bus-seats-medium.jpeg)
+
+.photo6 
+    background-image: url(https://static.pexels.com/photos/35550/ipad-tablet-technology-touch-medium.jpg)
+
+.photo7 
+    background-image: url(https://static.pexels.com/photos/5117/people-feet-train-travelling-medium.jpeg)
+
+.photo8 
+    width: 40%
+    background-image: url(https://static.pexels.com/photos/7306/pexels-photo-medium.jpeg)
+
+
+.layer 
+    &:hover
+        div
+            visibility: visible 
+    div 
+        visibility: hidden
+        background-color: rgba(0,0,0, 0.5)
+
+
+    .fa 
+        font-size: 20px
+        color: $background-grey
+        background-color: $white
+        padding: 10px
+        border-radius: 15%
+        margin: 10vw 10px
+        &:hover
+            color: rgba(250,250,250, 0.7)
+            background-color: rgba(30,30,30, 0.7)
+            cursor: pointer
+
+
+.col-3 
+    .people 
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center
+        background-image: url(https://s-media-cache-ak0.pinimg.com/originals/c6/a3/94/c6a394be0dba2ff43add148fbfffd63f.jpg)
+        width: 15vw
+        height: 15vw
+        border-radius: 50%
+        margin: 50px auto 20px auto
+    h3 
+        color: $background-grey
+
+
+.position 
+    p 
+        display: inline-block
+        background-color: rgba(0,0,0, 0.5)
+        width: 15vw
+        height: 15vw
+        border-radius: 50%
+        visibility: hidden
+        line-height: 15vw
+        font-size: 24px
+        color: $white
+    &:hover p 
+        visibility: visible
+            
+.promotion 
+    margin-top: 50px
+    height: 400px
+    background: url(https://static.pexels.com/photos/1954/black-and-white-lights-abstract-curves.jpg)   
+    background-size: cover
+    opacity: 0.7
+
+.mobile 
+    height: 330px   
+    border-style: solid
+    border-width: 20px 20px 0 20px
+    border-radius: 10%
+    margin-top: 50px
+
+.gallery-picture 
+    height: 110px
+    width: 33.33%
+    float: left
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+
+
+.picture1
+    width: 66.66%
+    background-image: url(https://static.pexels.com/photos/47426/pexels-photo-47426-medium.jpeg)
+
+.picture2 
+    background-image: url(https://static.pexels.com/photos/5021/nature-sunset-person-woman-medium.jpg)
+
+.picture3 
+    background-image: url(https://static.pexels.com/photos/1440/city-road-street-buildings-medium.jpg)
+
+.picture4 
+    background-image: url(https://static.pexels.com/photos/174/coffee-apple-iphone-laptop-medium.jpg)
+
+.picture5 
+    background-image: url(https://static.pexels.com/photos/6604/public-transportation-tram-bus-seats-medium.jpeg)
+
+.picture6 
+    background-image: url(https://static.pexels.com/photos/35550/ipad-tablet-technology-touch-medium.jpg)
+
+.picture7 
+    background-image: url(https://static.pexels.com/photos/5117/people-feet-train-travelling-medium.jpeg)
+
+.picture8 
+    background-image: url(https://static.pexels.com/photos/7306/pexels-photo-medium.jpeg)
+
+
+.layer2 
+    &:hover
+        div
+            visibility: visible 
+    div 
+        visibility: hidden
+        background-color: rgba(0,0,0, 0.5)
+
+    .fa 
+        font-size: 14px
+        color: $background-grey
+        background-color: $white
+        padding: 6px
+        border-radius: 10%
+        margin: 41px 5px
+        &:hover
+            color: rgba(250,250,250, 0.7)
+            background-color: rgba(30,30,30, 0.7)
+            cursor: pointer
+
+
+.promotion_text 
+    margin-top: 50px
+    color: $white
+    text-transform: uppercase
+    font-size: 35px
+    text-align: left
+    padding-left: 20px
+
+
+.p-extend 
+    padding: 10px 20px
+    text-align: left
+    color: white
+    line-height: 24px
+    
+.col-8 
+    .col-6 
+        p 
+            @extend .p-extend 
+    .col-4 
+        p 
+            @extend .p-extend 
+            font-style: italic
+
+
+.numbers 
+    h2 
+        font-family: 'Archivo Black', sans-serif
+        font-size: 40px
+        color: $background-grey
+
+    p 
+        text-transform: uppercase
+        color: $hover-blue
+        font-size: 20px
+        font-weight: bold
+
+
+footer 
+    background-color: $background-grey
+    h2 
+        text-transform: uppercase
+        margin-bottom: 20px
+    .col-4 
+        margin-top: 30px
+        h2, h3, p
+            padding: 0 15px
+    .col-3
+        h3 
+            color: $white
+            font-size: 16px
+
+
+footer>.container>div 
+    margin: 40px
+
+footer, footer h2, footer h3, footer p, footer a 
+    text-decoration: none    
+    color: $white
+
+
+.social
+    padding: 0 15px
+    
+    .fa 
+        background-color: $hover-blue
+        border-radius: 0%
+        padding: 8px
+        width: 15px
+        min-height: 15px
+        margin: 15px 5px 0 0
+        transition: background linear .3s
+        &:hover 
+            background-color: $hover-social-blue
+
+
+footer 
+    div 
+        .col-12
+            background-color: $footer-darkgrey
+            height: 50px
+            text-align: center
+            padding-top: 25px
+
+
+@media (max-width: 767px)
+
+    [class*="col-"] 
+        width: 100%
+        padding: 12px
+        float: left
+
+    .col-s-1 
+        width: 8.33%
+    .col-s-2 
+        width: 16.66%
+    .col-s-3 
+        width: 25%
+    .col-s-4 
+        width: 33.33%
+    .col-s-5 
+        width: 41.66%
+    .col-s-6 
+        width: 50%
+    .col-s-7 
+        width: 58.33%
+    .col-s-8 
+        width: 66.66%
+    .col-s-9 
+        width: 75%
+    .col-s-10 
+        width: 83.33%
+    .col-s-11 
+        width: 91.66%
+    .col-s-12 
+        width: 100% 
+        
+    * 
+        float: none
+        box-sizing: border-box
+    
+    header 
+        margin-bottom: 300px
+    
+    .container 
+        width: 100%
+        margin: 0 auto
+    
+    
+    header 
+        nav 
+            ul 
+                float: none
+                display: block
+                background-color: $background-grey
+                li 
+                    display: block
+                    a 
+                        display: block
+                        text-align: center
+    
+    
+    .gallery-photo 
+        width: 33.33%
+        float: left
+    
+    
+    .photo1, .photo8 
+        width: 100%
+    
+
+    .layer 
+        div 
+            visibility: visible 
+    
+    
+    .position 
+        p 
+            font-size: 15px
+            visibility: visible
+    
+    
+    .promotion 
+        min-height: 810px
+    
+    
+    .mobile 
+        height: 350px   
+        border-radius: 5%
+        margin-top: 38px
+    
+    
+    .promotion_text, .col-8 .col-6 p, .caol-8 .col-4 p  
+        color: $white
+    
+    
+    .social 
+        .fa 
+            width: 30px
+
